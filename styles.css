@@ -1,6 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Poppins', sans-serif;
+   scroll-behavior: smooth;
+}
 
-
+.one {
+   background-image: url(./Snippet\ Template\ Starter\ Files/Assets/background.png);
+   background-size: cover;
+}
+.sec1 {
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 70px;
+}
+h1 {
+   font-size: 6vh;
+   font-weight: bold;
+   padding-bottom: 15px;
+}
+button {
+   padding: 15px;
+   padding-right: 25px;
+   padding-left: 25px;
+   border-radius: 5px;
+   background-color: black;
+   color: white;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   cursor: pointer;
+}
+span {
+   color: #A0A0A1;
+}
+.img1 {
+   margin-left: 180px;
+}
+.sec2 {
+   display: flex;
+   justify-content: center;
+   gap: 120px;
+   padding-top: 100px;
+}
+.sec3 {
+   display: flex;
+   justify-content: space-around;
+   gap: 260px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+h2 {
+   font-size: 4vh;
+   padding-bottom: 10px;
+}
+.sec4 {
+   display: flex;
+   gap: 20px;
+   font-weight: bolder;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+.sec4 p:hover {
+   transform: rotateY(180deg);
+   transition: 0.5s;
+}
 
 
 
@@ -18,7 +86,7 @@ a {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   padding-top: 10px;
+   padding-top: 20px;
    padding-bottom: 30px;
 }
 
@@ -26,7 +94,7 @@ a {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   gap: 60px;
+   gap: 20px;
 }
 
 .nav-branding {
@@ -55,6 +123,7 @@ a {
    transition: all 0.3s ease-in-out;
    background-color: #372865;
 }
+
 
 
 
