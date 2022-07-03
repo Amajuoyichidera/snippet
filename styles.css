@@ -16,24 +16,29 @@ body {
 }
 .sec1 {
    text-align: center;
-   padding-top: 50px;
+   padding-top: 20px;
    padding-bottom: 70px;
 }
 h1 {
    font-size: 6vh;
-   font-weight: bold;
-   padding-bottom: 15px;
+   font-weight: bolder;
+   padding-bottom: 25px;
 }
 button {
-   padding: 15px;
+   padding: 20px;
    padding-right: 25px;
    padding-left: 25px;
    border-radius: 5px;
    background-color: black;
    color: white;
-   margin-top: 15px;
-   margin-bottom: 15px;
+   margin-top: 25px;
+   margin-bottom: 25px;
    cursor: pointer;
+   transition: .9s ease;
+   border: none;
+}
+button:hover {
+   transform: scale(1.1);
 }
 span {
    color: #A0A0A1;
@@ -60,14 +65,22 @@ h2 {
 }
 .sec4 {
    display: flex;
-   gap: 20px;
+   gap: 30px;
    font-weight: bolder;
    cursor: pointer;
-   transition: all 0.5s;
+}
+.sec4 p {
+   transition: .9s ease;
 }
 .sec4 p:hover {
-   transform: rotateY(180deg);
-   transition: 0.5s;
+   transform: scale(1.1);
+   color: #DF8490;
+}
+p {
+   line-height: 4vh;
+}
+.stack-up {
+   z-index: 9;
 }
 
 
@@ -86,7 +99,7 @@ a {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   padding-top: 20px;
+   padding-top: 25px;
    padding-bottom: 30px;
 }
 
@@ -94,7 +107,7 @@ a {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   gap: 20px;
+   gap: 25px;
 }
 
 .nav-branding {
@@ -123,7 +136,9 @@ a {
    transition: all 0.3s ease-in-out;
    background-color: #372865;
 }
-
+.sign {
+   font-size: 3vh;
+}
 
 
 
@@ -161,7 +176,7 @@ a {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #372865;
+        background-image: url(./Snippet\ Template\ Starter\ Files/Assets/background.png);
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -180,5 +195,48 @@ a {
      }
      .navbar {
         justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
+     }
+     .img1 {
+      height: 20vh;
+      width: 80vw;
+      margin-left: 4%;
+     }
+     h1 {
+      font-size: 4vh;
+      align-self: center;
+     }
+     .sec2 {
+      flex-direction: column-reverse;
+      padding-left: 25px;
+      padding-right: 25px;
+      gap: 30px;
+      padding-top: 30px;
+     }
+     .sec2 img {
+      height: 35vh;
+     }
+     .one {
+      padding-left: 25px;
+      padding-right: 25px;
+     }
+     h2 {
+      font-size: 3vh;
+     }
+     .sec3 {
+      flex-direction: column;
+      gap: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+     }
+     .sec4 {
+      gap: 25px;
+     }
+     .search {
+      display: none;
+     }
+     .sign {
+      font-size: 2.7vh;
      }
 }
